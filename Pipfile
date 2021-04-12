@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-telegram-bot = "*"
+requests = "*"
+bs4 = "*"
+pyopenssl = "*"
+ndg-httpsclient = "*"
+pyasn1 = "*"
+telethon = "*"
+
+[requires]
+python_version = "3.6"
+
+[dev-packages]
