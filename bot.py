@@ -27,7 +27,7 @@ class MyBot:
     def getter(self, update, context):
         chat_id = update.message.chat_id
         caption = update.message.caption
-        if(int(chat_id) == 1734553643):
+        if(int(chat_id) == 1734553643): #Must change
             chat_to_send = None
             with open("./queue.txt", "r") as f:
                 lines = f.readlines()
@@ -48,7 +48,7 @@ class MyBot:
     def download(self, update, context):
         chat_id = update.message.chat_id
         print(chat_id)
-        if(int(chat_id) == 1734553643): return
+        if(int(chat_id) == 1734553643): return #Must change
         else:
             self.updater.bot.send_message(update.message.chat_id, 'Please wait...')
             mess = update.message.text
